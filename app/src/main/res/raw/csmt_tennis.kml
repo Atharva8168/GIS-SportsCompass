@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder>
+	<name>Temporary Places</name>
+	<open>1</open>
+	<Document id="root_doc">
+		<name>cstttn.kml</name>
+		<Schema name="tennis" id="tennis">
+			<SimpleField type="string" name="Ground Name"></SimpleField>
+			<SimpleField type="string" name="Ground Owner"></SimpleField>
+			<SimpleField type="string" name="Paid/Free"></SimpleField>
+			<SimpleField type="float" name="Easting"></SimpleField>
+			<SimpleField type="float" name="Northing"></SimpleField>
+		</Schema>
+		<StyleMap id="m_ylw-pushpin">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="s_ylw-pushpin">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Style id="s_ylw-pushpin_hl">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+				</ItemIcon>
+			</ListStyle>
+		</Style>
+		<Folder>
+			<name>tennis</name>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#tennis">
+						<SimpleData name="Ground Name">Bombay Gymkhana Tennis Court</SimpleData>
+						<SimpleData name="Ground Owner">Bombay Gymkhana</SimpleData>
+						<SimpleData name="Paid/Free">Paid</SimpleData>
+						<SimpleData name="Easting">72.831211</SimpleData>
+						<SimpleData name="Northing">18.937032</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.831211,18.937032,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#tennis">
+						<SimpleData name="Ground Name">MSSA Tennis Court</SimpleData>
+						<SimpleData name="Ground Owner">BMC</SimpleData>
+						<SimpleData name="Paid/Free">Free</SimpleData>
+						<SimpleData name="Easting">72.83007</SimpleData>
+						<SimpleData name="Northing">18.941809</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.83007000000001,18.941809,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#tennis">
+						<SimpleData name="Ground Name">Maharashtra State tennis Court</SimpleData>
+						<SimpleData name="Ground Owner">Government</SimpleData>
+						<SimpleData name="Paid/Free">Free</SimpleData>
+						<SimpleData name="Easting">72.828599</SimpleData>
+						<SimpleData name="Northing">18.923097</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.828599,18.923097,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Document>
+</Folder>
+</kml>

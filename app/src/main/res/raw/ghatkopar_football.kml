@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder>
+	<name>Temporary Places</name>
+	<open>1</open>
+	<Document id="root_doc">
+		<name>GHT_football.kml</name>
+		<Schema name="ghatkopar_football" id="ghatkopar_football">
+			<SimpleField type="string" name="Ground Name"></SimpleField>
+			<SimpleField type="string" name="Ground Owner"></SimpleField>
+			<SimpleField type="string" name="Paid/Free"></SimpleField>
+			<SimpleField type="float" name="Easting"></SimpleField>
+			<SimpleField type="float" name="Northing"></SimpleField>
+		</Schema>
+		<StyleMap id="m_ylw-pushpin">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="s_ylw-pushpin">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+				</ItemIcon>
+			</ListStyle>
+			<PolyStyle>
+				<color>5900ff00</color>
+				<outline>0</outline>
+			</PolyStyle>
+		</Style>
+		<Style id="s_ylw-pushpin_hl">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+				</ItemIcon>
+			</ListStyle>
+			<PolyStyle>
+				<color>5900ff00</color>
+				<outline>0</outline>
+			</PolyStyle>
+		</Style>
+		<Folder>
+			<name>ghatkopar_football</name>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#ghatkopar_football">
+						<SimpleData name="Ground Name">Somaiya Football Ground</SimpleData>
+						<SimpleData name="Ground Owner">Private</SimpleData>
+						<SimpleData name="Paid/Free">Free(Somaiya College Students)</SimpleData>
+						<SimpleData name="Easting">72.89835</SimpleData>
+						<SimpleData name="Northing">19.07405</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.89834999999999,19.07405,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#ghatkopar_football">
+						<SimpleData name="Ground Name">Fatima Football Ground</SimpleData>
+						<SimpleData name="Ground Owner">Private</SimpleData>
+						<SimpleData name="Paid/Free">Paid</SimpleData>
+						<SimpleData name="Easting">72.89941</SimpleData>
+						<SimpleData name="Northing">19.08253</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.89941,19.08253,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#ghatkopar_football">
+						<SimpleData name="Ground Name">GNWFHS B.S.Pasi Turf</SimpleData>
+						<SimpleData name="Ground Owner">Private(Turf)</SimpleData>
+						<SimpleData name="Paid/Free">Paid</SimpleData>
+						<SimpleData name="Easting">72.90825</SimpleData>
+						<SimpleData name="Northing">19.07626</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.90825,19.07626,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#ghatkopar_football">
+						<SimpleData name="Ground Name">Ghatkopar Jolly Gymkhana Ground</SimpleData>
+						<SimpleData name="Ground Owner">Private</SimpleData>
+						<SimpleData name="Paid/Free">Paid</SimpleData>
+						<SimpleData name="Easting">72.89935</SimpleData>
+						<SimpleData name="Northing">19.08168</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.89935,19.08168,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#ghatkopar_football">
+						<SimpleData name="Ground Name">BoxPlay Sports Arena</SimpleData>
+						<SimpleData name="Ground Owner">Private(Turf)</SimpleData>
+						<SimpleData name="Paid/Free">Paid</SimpleData>
+						<SimpleData name="Easting">72.90882</SimpleData>
+						<SimpleData name="Northing">19.07685</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.90882000000001,19.07685,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#ghatkopar_football">
+						<SimpleData name="Ground Name">Astro Park - Acres Club</SimpleData>
+						<SimpleData name="Ground Owner">Private(Turf)</SimpleData>
+						<SimpleData name="Paid/Free">Paid</SimpleData>
+						<SimpleData name="Easting">72.89201</SimpleData>
+						<SimpleData name="Northing">19.05241</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.89201,19.05241,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#ghatkopar_football">
+						<SimpleData name="Ground Name">BS Pasi Football Turf</SimpleData>
+						<SimpleData name="Ground Owner">Private(Turf)</SimpleData>
+						<SimpleData name="Paid/Free">Paid</SimpleData>
+						<SimpleData name="Easting">72.91349</SimpleData>
+						<SimpleData name="Northing">19.07671</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.91349,19.07671,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#ghatkopar_football">
+						<SimpleData name="Ground Name">Kamgar Nete Dataji Salvi Ground</SimpleData>
+						<SimpleData name="Ground Owner">BMC</SimpleData>
+						<SimpleData name="Paid/Free">Free</SimpleData>
+						<SimpleData name="Easting">72.90402</SimpleData>
+						<SimpleData name="Northing">19.100955</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.90402,19.100955,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#ghatkopar_football">
+						<SimpleData name="Ground Name">Arun Kumar Vaidya Ground</SimpleData>
+						<SimpleData name="Ground Owner">BMC</SimpleData>
+						<SimpleData name="Paid/Free">Free</SimpleData>
+						<SimpleData name="Easting">72.911181</SimpleData>
+						<SimpleData name="Northing">19.082612</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.911181,19.082612,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Document>
+	<Document id="root_doc">
+		<name>Ghtk_football.kml</name>
+		<Schema name="gh_football" id="gh_football">
+			<SimpleField type="float" name="id"></SimpleField>
+		</Schema>
+		<StyleMap id="m_ylw-pushpin0">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="s_ylw-pushpin">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+				</ItemIcon>
+			</ListStyle>
+			<PolyStyle>
+				<color>5900ff00</color>
+				<outline>0</outline>
+			</PolyStyle>
+		</Style>
+		<Style id="s_ylw-pushpin_hl">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/red-circle-lv.png</href>
+				</ItemIcon>
+			</ListStyle>
+			<PolyStyle>
+				<color>5900ff00</color>
+				<outline>0</outline>
+			</PolyStyle>
+		</Style>
+		<Folder>
+			<name>gh_football</name>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#gh_football">
+						<SimpleData name="id">0</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									72.8919694664114,19.0524378542443,0 72.89194136476191,19.0522931307492,0 72.892171798288,19.0522847002544,0 72.89219568469009,19.052425208502,0 72.8919694664114,19.0524378542443,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#gh_football">
+						<SimpleData name="id">0</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									72.897958769938,19.0743922063143,0 72.8979983273956,19.0745075822323,0 72.8980279954888,19.0745372503255,0 72.8980873316752,19.0745866971476,0 72.8981631501356,19.07462955106,0 72.8982620437797,19.0746493297888,0 72.8983378622401,19.074662515608,0 72.8984268665197,19.0746427368792,0 72.8984796097966,19.0746031794216,0 72.89853894598301,19.0745537325996,0 72.8985949857146,19.0744976928679,0 72.89863454317219,19.0744119850431,0 72.8987037687231,19.073518645792,0 72.8985785034406,19.0733109691395,0 72.8985785034406,19.0733109691395,0 72.8984499417033,19.0732582258627,0 72.8983411586949,19.073251632953,0 72.89821918986731,19.0732911904107,0 72.89810381394921,19.0733933805095,0 72.8980345883984,19.0734790883343,0 72.897958769938,19.0743922063143,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#gh_football">
+						<SimpleData name="id">0</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									72.9079778265757,19.0760861625585,0 72.9082614957691,19.0764262521439,0 72.90850441690149,19.076246020336,0 72.9082207477081,19.0758933928857,0 72.9079778265757,19.0760861625585,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#gh_football">
+						<SimpleData name="id">0</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									72.90873356689259,19.0769053039117,0 72.90895400267731,19.0771282589625,0 72.909171919196,19.076935535105,0 72.908855751299,19.0766055112444,0 72.9086113824862,19.0767868984044,0 72.90873356689259,19.0769053039117,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#gh_football">
+						<SimpleData name="id">0</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									72.910846341127,19.0829983812583,0 72.9106109498741,19.0824538194044,0 72.91172466669779,19.0821165423852,0 72.91187222539369,19.0827770432144,0 72.910846341127,19.0829983812583,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#gh_football">
+						<SimpleData name="id">0</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									72.89911198035639,19.0825459320427,0 72.8991258961279,19.0821933991638,0 72.8996361410843,19.0821702062112,0 72.8996361410843,19.0826340652625,0 72.89911198035639,19.0825459320427,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#gh_football">
+						<SimpleData name="id">0</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									72.8988151105636,19.0817991189702,0 72.8990052927746,19.0810105585831,0 72.89962686390329,19.0812935126044,0 72.89949698336891,19.0819243609141,0 72.8988151105636,19.0817991189702,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#gh_football">
+						<SimpleData name="id">0</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									72.9034964736194,19.1006993499014,0 72.9039992276015,19.1015358649303,0 72.9047512461628,19.1012612514108,0 72.9043710120588,19.1003402399143,0 72.9034964736194,19.1006993499014,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+		</Folder>
+	</Document>
+</Folder>
+</kml>

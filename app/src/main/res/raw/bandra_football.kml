@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder>
+	<name>Temporary Places</name>
+	<Document id="root_doc">
+		<name>bandft.kml</name>
+		<Schema name="bfg" id="bfg">
+			<SimpleField type="float" name="id"></SimpleField>
+		</Schema>
+		<StyleMap id="m_ylw-pushpin">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="s_ylw-pushpin">
+			<IconStyle>
+				<color>ff00ff00</color>
+				<scale>1.2</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/play.png</href>
+				</Icon>
+				<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+			</IconStyle>
+			<LabelStyle>
+				<color>ff00ff00</color>
+			</LabelStyle>
+			<ListStyle>
+			</ListStyle>
+			<PolyStyle>
+				<color>4d00ff00</color>
+			</PolyStyle>
+		</Style>
+		<Style id="s_ylw-pushpin_hl">
+			<IconStyle>
+				<color>ff00ff00</color>
+				<scale>1.4</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/play.png</href>
+				</Icon>
+				<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+			</IconStyle>
+			<LabelStyle>
+				<color>ff00ff00</color>
+			</LabelStyle>
+			<ListStyle>
+			</ListStyle>
+			<PolyStyle>
+				<color>4d00ff00</color>
+			</PolyStyle>
+		</Style>
+		<Folder>
+			<name>bfg</name>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#bfg">
+						<SimpleData name="id">1</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									72.8269201380194,19.0566778117549,0 72.8277528135213,19.0566749601548,0 72.82774376270061,19.0561217488223,0 72.82692918884,19.0561474133064,0 72.82692918884,19.0561474133064,0 72.8269201380194,19.0566778117549,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#bfg">
+						<SimpleData name="id">2</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									72.8301475098243,19.0573108657473,0 72.83052161041221,19.0573522137843,0 72.8305517798144,19.0571012738146,0 72.8301716453461,19.0570770352747,0 72.8301716453461,19.0570784610713,0 72.8301716453461,19.0570841642574,0 72.8301716453461,19.0570841642574,0 72.8301475098243,19.0573108657473,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#bfg">
+						<SimpleData name="id">3</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									72.830223687565,19.0548599067916,0 72.8307139403515,19.0548128548693,0 72.8306008050931,19.0542054561277,0 72.8301271454778,19.054268192251,0 72.8301271454778,19.054268192251,0 72.830223687565,19.0548599067916,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#bfg">
+						<SimpleData name="id">4</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									72.8337263551655,19.0518884804127,0 72.8339526256823,19.0519996959864,0 72.8341245912751,19.051677455786,0 72.83389832075829,19.0515947568726,0 72.83389832075829,19.0515947568726,0 72.8337263551655,19.0518884804127,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#bfg">
+						<SimpleData name="id">5</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									72.83283937473951,19.0514122487799,0 72.8336961857632,19.0518656669525,0 72.8340220153075,19.0512953294275,0 72.83315917040331,19.0508390579959,0 72.83315917040331,19.0508390579959,0 72.83315917040331,19.0508390579959,0 72.83283937473951,19.0514122487799,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#bfg">
+						<SimpleData name="id">6</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									72.8305072799461,19.0505510360087,0 72.8313701248503,19.0510130116272,0 72.83167181887271,19.0504797433604,0 72.83078182150651,19.0500206179716,0 72.83078182150651,19.0500177662572,0 72.83078182150651,19.0500263214004,0 72.83078182150651,19.0500263214004,0 72.8305072799461,19.0505510360087,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+		</Folder>
+	</Document>
+	<Document id="root_doc">
+		<name>banfoot.kml</name>
+		<Schema name="bandra_football" id="bandra_football">
+			<SimpleField type="string" name="Ground Name"></SimpleField>
+			<SimpleField type="string" name="Ground Owner"></SimpleField>
+			<SimpleField type="string" name="Paid/Free"></SimpleField>
+			<SimpleField type="string" name="Timing"></SimpleField>
+			<SimpleField type="float" name="Easting"></SimpleField>
+			<SimpleField type="float" name="Northing"></SimpleField>
+		</Schema>
+		<StyleMap id="m_ylw-pushpin0">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="s_ylw-pushpin">
+			<IconStyle>
+				<color>ff00ff00</color>
+				<scale>1.2</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/play.png</href>
+				</Icon>
+				<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+			</IconStyle>
+			<LabelStyle>
+				<color>ff00ff00</color>
+			</LabelStyle>
+			<ListStyle>
+			</ListStyle>
+			<PolyStyle>
+				<color>4d00ff00</color>
+			</PolyStyle>
+		</Style>
+		<Style id="s_ylw-pushpin_hl">
+			<IconStyle>
+				<color>ff00ff00</color>
+				<scale>1.4</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/play.png</href>
+				</Icon>
+				<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+			</IconStyle>
+			<LabelStyle>
+				<color>ff00ff00</color>
+			</LabelStyle>
+			<ListStyle>
+			</ListStyle>
+			<PolyStyle>
+				<color>4d00ff00</color>
+			</PolyStyle>
+		</Style>
+		<Folder>
+			<name>bandra_football</name>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#bandra_football">
+						<SimpleData name="Ground Name">St.Andrews Turf Park</SimpleData>
+						<SimpleData name="Ground Owner">Private</SimpleData>
+						<SimpleData name="Paid/Free">Paid</SimpleData>
+						<SimpleData name="Timing">6:00 am - 9:00 pm</SimpleData>
+						<SimpleData name="Easting">72.82713641</SimpleData>
+						<SimpleData name="Northing">19.05641404</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.82713640999999,19.05641404,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#bandra_football">
+						<SimpleData name="Ground Name">St.Josephs Turf</SimpleData>
+						<SimpleData name="Ground Owner">Private</SimpleData>
+						<SimpleData name="Paid/Free">Paid</SimpleData>
+						<SimpleData name="Timing">6:00 am - 9:00 pm</SimpleData>
+						<SimpleData name="Easting">72.83038129</SimpleData>
+						<SimpleData name="Northing">19.05719016</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.83038129000001,19.05719016,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#bandra_football">
+						<SimpleData name="Ground Name">Sporting Lions Foundation Sports Turf</SimpleData>
+						<SimpleData name="Ground Owner">Private</SimpleData>
+						<SimpleData name="Paid/Free">Paid</SimpleData>
+						<SimpleData name="Timing">6:00 am - 9:00 pm</SimpleData>
+						<SimpleData name="Easting">72.83390226</SimpleData>
+						<SimpleData name="Northing">19.05171743</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.83390226,19.05171743,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#bandra_football">
+						<SimpleData name="Ground Name">Footbrawl BKC</SimpleData>
+						<SimpleData name="Ground Owner">Private</SimpleData>
+						<SimpleData name="Paid/Free">Paid</SimpleData>
+						<SimpleData name="Timing">6:00 am - 9:00 pm</SimpleData>
+						<SimpleData name="Easting">72.85408884</SimpleData>
+						<SimpleData name="Northing">19.0561449</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.85408884,19.0561449,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#bandra_football">
+						<SimpleData name="Ground Name">Neville D&apos;Souza Football turf</SimpleData>
+						<SimpleData name="Ground Owner">Private</SimpleData>
+						<SimpleData name="Paid/Free">Paid</SimpleData>
+						<SimpleData name="Timing">6:00 am - 9:00 pm</SimpleData>
+						<SimpleData name="Easting">72.83293929</SimpleData>
+						<SimpleData name="Northing">19.05133406</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.83293929,19.05133406,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#bandra_football">
+						<SimpleData name="Ground Name">Wings Sports Centre</SimpleData>
+						<SimpleData name="Ground Owner">Private</SimpleData>
+						<SimpleData name="Paid/Free">Paid</SimpleData>
+						<SimpleData name="Timing">6:00 am - 9:00 pm</SimpleData>
+						<SimpleData name="Easting">72.83104699</SimpleData>
+						<SimpleData name="Northing">19.0505642</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.83104699,19.0505642,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#bandra_football">
+						<SimpleData name="Ground Name">Astro Park - St.Stainslaus Sports Complex</SimpleData>
+						<SimpleData name="Ground Owner">Private</SimpleData>
+						<SimpleData name="Paid/Free">Paid</SimpleData>
+						<SimpleData name="Timing">6:00 am - 9:00 pm</SimpleData>
+						<SimpleData name="Easting">72.83043351</SimpleData>
+						<SimpleData name="Northing">19.05450127</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.83043351000001,19.05450127,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Document>
+</Folder>
+</kml>

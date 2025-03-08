@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder>
+	<name>Temporary Places</name>
+	<open>1</open>
+	<Document id="root_doc">
+		<name>boriswim.kml</name>
+		<Schema name="borivali_swimming" id="borivali_swimming">
+			<SimpleField type="string" name="Ground Name"></SimpleField>
+			<SimpleField type="string" name="Ground Owner"></SimpleField>
+			<SimpleField type="string" name="Paid/Free"></SimpleField>
+			<SimpleField type="string" name="Timing"></SimpleField>
+			<SimpleField type="float" name="Easting"></SimpleField>
+			<SimpleField type="float" name="Northing"></SimpleField>
+		</Schema>
+		<StyleMap id="m_ylw-pushpin">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="s_ylw-pushpin">
+			<IconStyle>
+				<color>ffffff55</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle-lv.png</href>
+				</ItemIcon>
+			</ListStyle>
+			<PolyStyle>
+				<color>4dffff55</color>
+			</PolyStyle>
+		</Style>
+		<Style id="s_ylw-pushpin_hl">
+			<IconStyle>
+				<color>ffffff55</color>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle-lv.png</href>
+				</ItemIcon>
+			</ListStyle>
+			<PolyStyle>
+				<color>4dffff55</color>
+			</PolyStyle>
+		</Style>
+		<Folder>
+			<name>borivali_swimming</name>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#borivali_swimming">
+						<SimpleData name="Ground Name">Qzone Swimming Pool</SimpleData>
+						<SimpleData name="Ground Owner">Private</SimpleData>
+						<SimpleData name="Paid/Free">Paid</SimpleData>
+						<SimpleData name="Timing">9:00 am - 9:00 pm</SimpleData>
+						<SimpleData name="Easting">72.842663</SimpleData>
+						<SimpleData name="Northing">19.158562</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.842663,19.158562,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#borivali_swimming">
+						<SimpleData name="Ground Name">BMC Swimming Pool</SimpleData>
+						<SimpleData name="Ground Owner">Government</SimpleData>
+						<SimpleData name="Paid/Free">Paid</SimpleData>
+						<SimpleData name="Timing">9:00 am - 9:00 pm</SimpleData>
+						<SimpleData name="Easting">72.8389390354842</SimpleData>
+						<SimpleData name="Northing">19.1881117999999</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.8389390354842,19.1881117999999,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#borivali_swimming">
+						<SimpleData name="Ground Name">Mandpeshwar Civic Federation Gymkhana</SimpleData>
+						<SimpleData name="Ground Owner">Private</SimpleData>
+						<SimpleData name="Paid/Free">Paid</SimpleData>
+						<SimpleData name="Timing">9:00 am - 9:00 pm</SimpleData>
+						<SimpleData name="Easting">72.852953</SimpleData>
+						<SimpleData name="Northing">19.236029</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.852953,19.236029,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#borivali_swimming">
+						<SimpleData name="Ground Name">Sardar Vallabhai Swimming Pool</SimpleData>
+						<SimpleData name="Ground Owner">Private</SimpleData>
+						<SimpleData name="Paid/Free">Paid</SimpleData>
+						<SimpleData name="Timing">9:00 am - 9:00 pm</SimpleData>
+						<SimpleData name="Easting">72.845319</SimpleData>
+						<SimpleData name="Northing">19.204651</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.845319,19.204651,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Document>
+	<Document id="root_doc">
+		<name>borismp.kml</name>
+		<Schema name="bsp" id="bsp">
+			<SimpleField type="float" name="id"></SimpleField>
+		</Schema>
+		<StyleMap id="m_ylw-pushpin0">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="s_ylw-pushpin">
+			<IconStyle>
+				<color>ffffff55</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle-lv.png</href>
+				</ItemIcon>
+			</ListStyle>
+			<PolyStyle>
+				<color>4dffff55</color>
+			</PolyStyle>
+		</Style>
+		<Style id="s_ylw-pushpin_hl">
+			<IconStyle>
+				<color>ffffff55</color>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle-lv.png</href>
+				</ItemIcon>
+			</ListStyle>
+			<PolyStyle>
+				<color>4dffff55</color>
+			</PolyStyle>
+		</Style>
+		<Folder>
+			<name>bsp</name>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#bsp">
+						<SimpleData name="id">1</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									72.84486300781811,19.2048070729521,0 72.8451078634188,19.204805712781,0 72.8451208263624,19.2043514150032,0 72.8448658884722,19.2043554955277,0 72.8448658884722,19.2043554955277,0 72.8448658884722,19.2043554955277,0 72.84486300781811,19.2048070729521,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#bsp">
+						<SimpleData name="id">2</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									72.85283054899161,19.2361153709902,0 72.85308140176851,19.2361218599596,0 72.8530848381079,19.2359488206882,0 72.8528248217592,19.2359423317119,0 72.8528248217592,19.2359423317119,0 72.8528248217592,19.2359423317119,0 72.85283054899161,19.2361153709902,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#bsp">
+						<SimpleData name="id">3</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									72.8425814264083,19.1586881737071,0 72.8427809887727,19.1586693227808,0 72.8427610325362,19.1581949070911,0 72.8425481660143,19.1582263253909,0 72.8425481660143,19.1582263253909,0 72.8425481660143,19.1582263253909,0 72.8425481660143,19.1582294672205,0 72.8425814264083,19.1586881737071,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#bsp">
+						<SimpleData name="id">4</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									72.8388072454913,19.1882068688291,0 72.8389590376194,19.1882057400167,0 72.8389709897555,19.1879737689099,0 72.8388072454913,19.1879720756889,0 72.8388066478845,19.1879715112819,0 72.8388066478845,19.1879715112819,0 72.8388072454913,19.1882068688291,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+		</Folder>
+	</Document>
+</Folder>
+</kml>

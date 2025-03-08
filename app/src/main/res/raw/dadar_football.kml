@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder>
+	<name>Temporary Places</name>
+	<open>1</open>
+	<Document id="root_doc">
+		<name>dd_ftbl.kml</name>
+		<Schema name="football" id="football">
+			<SimpleField type="string" name="Ground Name"></SimpleField>
+			<SimpleField type="string" name="Ground Owner"></SimpleField>
+			<SimpleField type="string" name="Paid/Free"></SimpleField>
+			<SimpleField type="float" name="Easting"></SimpleField>
+			<SimpleField type="float" name="Northing"></SimpleField>
+		</Schema>
+		<StyleMap id="m_ylw-pushpin">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="s_ylw-pushpin">
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/play.png</href>
+				</Icon>
+				<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+			</IconStyle>
+			<ListStyle>
+			</ListStyle>
+			<PolyStyle>
+				<color>4d00ff00</color>
+				<outline>0</outline>
+			</PolyStyle>
+		</Style>
+		<Style id="s_ylw-pushpin_hl">
+			<IconStyle>
+				<scale>1.4</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/play.png</href>
+				</Icon>
+				<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+			</IconStyle>
+			<ListStyle>
+			</ListStyle>
+			<PolyStyle>
+				<color>4d00ff00</color>
+				<outline>0</outline>
+			</PolyStyle>
+		</Style>
+		<Folder>
+			<name>football</name>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#football">
+						<SimpleData name="Ground Name">Urban Sport</SimpleData>
+						<SimpleData name="Ground Owner">Private Turf</SimpleData>
+						<SimpleData name="Paid/Free">Paid</SimpleData>
+						<SimpleData name="Easting">72.839879</SimpleData>
+						<SimpleData name="Northing">19.020512</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.839879,19.020512,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#football">
+						<SimpleData name="Ground Name">The Sports Square</SimpleData>
+						<SimpleData name="Ground Owner">Private Turf</SimpleData>
+						<SimpleData name="Paid/Free">Paid</SimpleData>
+						<SimpleData name="Easting">72.85019465</SimpleData>
+						<SimpleData name="Northing">19.01347402</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.85019465000001,19.01347402,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#football">
+						<SimpleData name="Ground Name">Urban Sports - Dadar</SimpleData>
+						<SimpleData name="Ground Owner">Private Turf</SimpleData>
+						<SimpleData name="Paid/Free">Paid</SimpleData>
+						<SimpleData name="Easting">72.8399</SimpleData>
+						<SimpleData name="Northing">19.020509</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.8399,19.020509,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#football">
+						<SimpleData name="Ground Name">Mayekar Wadi Ground</SimpleData>
+						<SimpleData name="Ground Owner">BMC</SimpleData>
+						<SimpleData name="Paid/Free">Free</SimpleData>
+						<SimpleData name="Easting">72.837892</SimpleData>
+						<SimpleData name="Northing">19.019451</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.837892,19.019451,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#football">
+						<SimpleData name="Ground Name">Football Turf Club</SimpleData>
+						<SimpleData name="Ground Owner">Private Turf</SimpleData>
+						<SimpleData name="Paid/Free">Paid</SimpleData>
+						<SimpleData name="Easting">72.834771</SimpleData>
+						<SimpleData name="Northing">19.022868</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.834771,19.022868,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#football">
+						<SimpleData name="Ground Name">VJTI Football Ground</SimpleData>
+						<SimpleData name="Ground Owner">Government College</SimpleData>
+						<SimpleData name="Paid/Free">Free</SimpleData>
+						<SimpleData name="Easting">72.855715</SimpleData>
+						<SimpleData name="Northing">19.021382</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.855715,19.021382,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#football">
+						<SimpleData name="Ground Name">Purandare Stadium</SimpleData>
+						<SimpleData name="Ground Owner">BMC</SimpleData>
+						<SimpleData name="Paid/Free">Free</SimpleData>
+						<SimpleData name="Easting">72.84553</SimpleData>
+						<SimpleData name="Northing">19.013092</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.84553,19.013092,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#football">
+						<SimpleData name="Ground Name">Naigaon Sports Stadium</SimpleData>
+						<SimpleData name="Ground Owner">Government</SimpleData>
+						<SimpleData name="Paid/Free">Free</SimpleData>
+						<SimpleData name="Easting">72.847373</SimpleData>
+						<SimpleData name="Northing">19.009541</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.847373,19.009541,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#football">
+						<SimpleData name="Ground Name">St. Xaviers Football Ground</SimpleData>
+						<SimpleData name="Ground Owner">Private College</SimpleData>
+						<SimpleData name="Paid/Free">Paid/Free</SimpleData>
+						<SimpleData name="Easting">72.842347</SimpleData>
+						<SimpleData name="Northing">19.006509</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.842347,19.006509,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Document>
+	<Document id="root_doc">
+		<name>drd_fbl.kml</name>
+		<Schema name="dad_ftb" id="dad_ftb">
+			<SimpleField type="float" name="id"></SimpleField>
+		</Schema>
+		<StyleMap id="m_ylw-pushpin0">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="s_ylw-pushpin">
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/play.png</href>
+				</Icon>
+				<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+			</IconStyle>
+			<ListStyle>
+			</ListStyle>
+			<PolyStyle>
+				<color>4d00ff00</color>
+				<outline>0</outline>
+			</PolyStyle>
+		</Style>
+		<Style id="s_ylw-pushpin_hl">
+			<IconStyle>
+				<scale>1.4</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/play.png</href>
+				</Icon>
+				<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+			</IconStyle>
+			<ListStyle>
+			</ListStyle>
+			<PolyStyle>
+				<color>4d00ff00</color>
+				<outline>0</outline>
+			</PolyStyle>
+		</Style>
+		<Folder>
+			<name>dad_ftb</name>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#dad_ftb">
+						<SimpleData name="id">0</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									72.8395616059298,19.0205161033961,0 72.8397146311499,19.0208658753277,0 72.8401992110135,19.0206946328195,0 72.8401664198949,19.0205634683451,0 72.8402392890474,19.0204869557351,0 72.8401190549459,19.0202756351931,0 72.8395616059298,19.0205161033961,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#dad_ftb">
+						<SimpleData name="id">0</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									72.844673898945,19.0126105323571,0 72.8455992737382,19.0140348837546,0 72.8464702147201,19.0135086902447,0 72.8454722615117,19.0122022787719,0 72.844673898945,19.0126105323571,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#dad_ftb">
+						<SimpleData name="id">0</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									72.85559404987001,19.0217279029986,0 72.85604601971301,19.0216185554559,0 72.8557544262659,19.0205250800294,0 72.8553024564229,19.0206490072444,0 72.85559404987001,19.0217279029986,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#dad_ftb">
+						<SimpleData name="id">0</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									72.84181518744199,19.0068621143717,0 72.8417390584077,19.0061912272566,0 72.8431617197368,19.0061293724162,0 72.84324736490041,19.0066765498505,0 72.84181518744199,19.0068621143717,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#dad_ftb">
+						<SimpleData name="id">0</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									72.8469536530079,19.0092976942668,0 72.8473041313777,19.0100718278089,0 72.8477971119418,19.0098291889375,0 72.8474504849827,19.0090473525741,0 72.8469536530079,19.0092976942668,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#dad_ftb">
+						<SimpleData name="id">0</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									72.8377008571254,19.0194568729936,0 72.83793564291599,19.0196666520137,0 72.8380717908893,19.0195763497865,0 72.8378314480385,19.0191956911673,0 72.8377008571254,19.0194568729936,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+		</Folder>
+	</Document>
+</Folder>
+</kml>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "628200916274",
+    "project_id": "sportscompass-7bb83",
+    "storage_bucket": "sportscompass-7bb83.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:628200916274:android:28369daf84b197f7f1432b",
+        "android_client_info": {
+          "package_name": "com.example.sportscompass"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "628200916274-6gct4mr8ffcg1gn5p7b0kuahcvnlrggd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMK7PYwRq_ka-lQ9WD5D0NLvzOVjpNgwM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "628200916274-6gct4mr8ffcg1gn5p7b0kuahcvnlrggd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

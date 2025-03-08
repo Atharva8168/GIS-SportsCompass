@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder>
+	<name>Temporary Places</name>
+	<open>1</open>
+	<Document id="root_doc">
+		<name>borickt.kml</name>
+		<Schema name="bcg" id="bcg">
+			<SimpleField type="float" name="id"></SimpleField>
+		</Schema>
+		<StyleMap id="m_ylw-pushpin">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="s_ylw-pushpin">
+			<IconStyle>
+				<color>ff00ff00</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LabelStyle>
+				<color>ff00ff00</color>
+			</LabelStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+				</ItemIcon>
+			</ListStyle>
+			<PolyStyle>
+				<color>4d00ff00</color>
+			</PolyStyle>
+		</Style>
+		<Style id="s_ylw-pushpin_hl">
+			<IconStyle>
+				<color>ff00ff00</color>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LabelStyle>
+				<color>ff00ff00</color>
+			</LabelStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+				</ItemIcon>
+			</ListStyle>
+			<PolyStyle>
+				<color>4d00ff00</color>
+			</PolyStyle>
+		</Style>
+		<Folder>
+			<name>bcg</name>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#bcg">
+						<SimpleData name="id">1</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									72.855737189116,19.2458544153857,0 72.8559161055344,19.2459237921167,0 72.8561429459934,19.2459298248745,0 72.8563218624119,19.245857431766,0 72.8564879990861,19.2457066126872,0 72.8565902370395,19.2454472035475,0 72.85650716870229,19.2451515972838,0 72.85625476875499,19.2449555316111,0 72.85600236880759,19.2449012364604,0 72.8556381460987,19.245009826744,0 72.8555007638488,19.2453114660436,0 72.8555199334651,19.2456794652383,0 72.8555199334651,19.2456794652383,0 72.8555199334651,19.2456794652383,0 72.8555199334651,19.2456794652383,0 72.855737189116,19.2458544153857,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#bcg">
+						<SimpleData name="id">2</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									72.8389002592027,19.2354957039603,0 72.83918397348759,19.2354895394678,0 72.83917625740879,19.2352098954313,0 72.83887770451059,19.2352261473022,0 72.83887770451059,19.2352261473022,0 72.83887770451059,19.2352261473022,0 72.8389002592027,19.2354957039603,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#bcg">
+						<SimpleData name="id">4</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									72.85254001951409,19.246801719325,0 72.8530070709469,19.24673410748,0 72.85292300168901,19.245079078414,0 72.852309607474,19.2451496306153,0 72.8521788330728,19.245778719736,0 72.8523127211502,19.2464842373764,0 72.85245283658,19.246825236482,0 72.8524715186373,19.246825236482,0 72.8524715186373,19.246825236482,0 72.85254001951409,19.246801719325,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#bcg">
+						<SimpleData name="id">5</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									72.8249467739995,19.2264292467033,0 72.8254670131473,19.2263482759274,0 72.82537554252789,19.2258273629814,0 72.8248324357253,19.2259920040392,0 72.8248324357253,19.2259920040392,0 72.8248324357253,19.2259920040392,0 72.8248324357253,19.2259920040392,0 72.8249467739995,19.2264292467033,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+		</Folder>
+	</Document>
+	<Document id="root_doc">
+		<name>borcric.kml</name>
+		<Schema name="borivali_cricket" id="borivali_cricket">
+			<SimpleField type="string" name="Ground Name"></SimpleField>
+			<SimpleField type="string" name="Ground Owner"></SimpleField>
+			<SimpleField type="string" name="Paid/Free"></SimpleField>
+			<SimpleField type="string" name="Timing"></SimpleField>
+			<SimpleField type="float" name="Easting"></SimpleField>
+			<SimpleField type="float" name="Northing"></SimpleField>
+		</Schema>
+		<StyleMap id="m_ylw-pushpin0">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="s_ylw-pushpin">
+			<IconStyle>
+				<color>ff00ff00</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LabelStyle>
+				<color>ff00ff00</color>
+			</LabelStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+				</ItemIcon>
+			</ListStyle>
+			<PolyStyle>
+				<color>4d00ff00</color>
+			</PolyStyle>
+		</Style>
+		<Style id="s_ylw-pushpin_hl">
+			<IconStyle>
+				<color>ff00ff00</color>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LabelStyle>
+				<color>ff00ff00</color>
+			</LabelStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+				</ItemIcon>
+			</ListStyle>
+			<PolyStyle>
+				<color>4d00ff00</color>
+			</PolyStyle>
+		</Style>
+		<Folder>
+			<name>borivali_cricket</name>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#borivali_cricket">
+						<SimpleData name="Ground Name">Js Turf Cricket and Football</SimpleData>
+						<SimpleData name="Ground Owner">Private Turf</SimpleData>
+						<SimpleData name="Paid/Free">Paid</SimpleData>
+						<SimpleData name="Timing">5:00 am - 9:00 pm</SimpleData>
+						<SimpleData name="Easting">72.845124</SimpleData>
+						<SimpleData name="Northing">19.245878</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.845124,19.245878,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#borivali_cricket">
+						<SimpleData name="Ground Name">PlayOn Arena</SimpleData>
+						<SimpleData name="Ground Owner">Private Turf</SimpleData>
+						<SimpleData name="Paid/Free">Paid</SimpleData>
+						<SimpleData name="Timing">5:00 am - 9:00 pm</SimpleData>
+						<SimpleData name="Easting">72.839002</SimpleData>
+						<SimpleData name="Northing">19.235208</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.83900199999999,19.235208,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#borivali_cricket">
+						<SimpleData name="Ground Name">St.Francis Ground</SimpleData>
+						<SimpleData name="Ground Owner">Private</SimpleData>
+						<SimpleData name="Paid/Free">Paid</SimpleData>
+						<SimpleData name="Timing">5:00 am - 9:00 pm</SimpleData>
+						<SimpleData name="Easting">72.852391</SimpleData>
+						<SimpleData name="Northing">19.245509</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.852391,19.245509,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#borivali_cricket">
+						<SimpleData name="Ground Name">Bhavdevi Ground</SimpleData>
+						<SimpleData name="Ground Owner">Government</SimpleData>
+						<SimpleData name="Paid/Free">Free</SimpleData>
+						<SimpleData name="Timing">5:00 am - 9:00 pm</SimpleData>
+						<SimpleData name="Easting">72.856053</SimpleData>
+						<SimpleData name="Northing">19.245426</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.856053,19.245426,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#borivali_cricket">
+						<SimpleData name="Ground Name">FootCric Turf</SimpleData>
+						<SimpleData name="Ground Owner">Private Turf</SimpleData>
+						<SimpleData name="Paid/Free">Paid</SimpleData>
+						<SimpleData name="Timing">5:00 am - 9:00 pm</SimpleData>
+						<SimpleData name="Easting">72.825258</SimpleData>
+						<SimpleData name="Northing">19.226185</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.82525800000001,19.226185,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#borivali_cricket">
+						<SimpleData name="Ground Name">Hi5ers Turf</SimpleData>
+						<SimpleData name="Ground Owner">Private Turf</SimpleData>
+						<SimpleData name="Paid/Free">Paid</SimpleData>
+						<SimpleData name="Timing">5:00 am - 9:00 pm</SimpleData>
+						<SimpleData name="Easting">72.870262</SimpleData>
+						<SimpleData name="Northing">19.219666</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.870262,19.219666,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Document>
+</Folder>
+</kml>

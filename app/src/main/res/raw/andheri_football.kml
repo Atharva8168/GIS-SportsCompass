@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder>
+	<name>Temporary Places</name>
+	<open>1</open>
+	<Document id="root_doc">
+		<name>andfootball.kml</name>
+		<Schema name="andheri_football" id="andheri_football">
+			<SimpleField type="string" name="Ground Name"></SimpleField>
+			<SimpleField type="string" name="Ground Owner"></SimpleField>
+			<SimpleField type="string" name="Paid/Free"></SimpleField>
+			<SimpleField type="string" name="Timing"></SimpleField>
+			<SimpleField type="float" name="Easting"></SimpleField>
+			<SimpleField type="float" name="Northing"></SimpleField>
+		</Schema>
+		<StyleMap id="m_ylw-pushpin">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="s_ylw-pushpin">
+			<IconStyle>
+				<color>ff00ff00</color>
+				<scale>1.2</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/play.png</href>
+				</Icon>
+				<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+			</IconStyle>
+			<LabelStyle>
+				<color>ff00ff00</color>
+			</LabelStyle>
+			<ListStyle>
+			</ListStyle>
+			<PolyStyle>
+				<color>4d00ff00</color>
+			</PolyStyle>
+		</Style>
+		<Style id="s_ylw-pushpin_hl">
+			<IconStyle>
+				<color>ff00ff00</color>
+				<scale>1.4</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/play.png</href>
+				</Icon>
+				<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+			</IconStyle>
+			<LabelStyle>
+				<color>ff00ff00</color>
+			</LabelStyle>
+			<ListStyle>
+			</ListStyle>
+			<PolyStyle>
+				<color>4d00ff00</color>
+			</PolyStyle>
+		</Style>
+		<Folder>
+			<name>andheri_football</name>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#andheri_football">
+						<SimpleData name="Ground Name">Mumbai Football Arena</SimpleData>
+						<SimpleData name="Ground Owner">Private</SimpleData>
+						<SimpleData name="Paid/Free">Paid</SimpleData>
+						<SimpleData name="Timing">5:00 am - 9:00 pm</SimpleData>
+						<SimpleData name="Easting">72.835581</SimpleData>
+						<SimpleData name="Northing">19.128939</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.835581,19.128939,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#andheri_football">
+						<SimpleData name="Ground Name">Holy Family High School Ground</SimpleData>
+						<SimpleData name="Ground Owner">Private</SimpleData>
+						<SimpleData name="Paid/Free">Paid</SimpleData>
+						<SimpleData name="Timing">5:00 am - 9:00 pm</SimpleData>
+						<SimpleData name="Easting">72.861177</SimpleData>
+						<SimpleData name="Northing">19.117835</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.861177,19.117835,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#andheri_football">
+						<SimpleData name="Ground Name">Lion&apos;s Sports Club</SimpleData>
+						<SimpleData name="Ground Owner">Private Turf</SimpleData>
+						<SimpleData name="Paid/Free">Paid</SimpleData>
+						<SimpleData name="Timing">5:00 am - 9:00 pm</SimpleData>
+						<SimpleData name="Easting">72.841479</SimpleData>
+						<SimpleData name="Northing">19.090924</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.84147900000001,19.090924,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#andheri_football">
+						<SimpleData name="Ground Name">Battle Field Turf</SimpleData>
+						<SimpleData name="Ground Owner">Private Turf</SimpleData>
+						<SimpleData name="Paid/Free">Paid</SimpleData>
+						<SimpleData name="Timing">5:00 am - 9:00 pm</SimpleData>
+						<SimpleData name="Easting">72.8572686296254</SimpleData>
+						<SimpleData name="Northing">19.114769220796</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.85726862962539,19.114769220796,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#andheri_football">
+						<SimpleData name="Ground Name">Players Turf</SimpleData>
+						<SimpleData name="Ground Owner">Private Turf</SimpleData>
+						<SimpleData name="Paid/Free">Paid</SimpleData>
+						<SimpleData name="Timing">5:00 am - 9:00 pm</SimpleData>
+						<SimpleData name="Easting">72.862762</SimpleData>
+						<SimpleData name="Northing">19.122401</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.862762,19.122401,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#andheri_football">
+						<SimpleData name="Ground Name">Domnic Savio High School Ground</SimpleData>
+						<SimpleData name="Ground Owner">Private Turf</SimpleData>
+						<SimpleData name="Paid/Free">Paid</SimpleData>
+						<SimpleData name="Timing">5:00 am - 9:00 pm</SimpleData>
+						<SimpleData name="Easting">72.864985</SimpleData>
+						<SimpleData name="Northing">19.127496</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.864985,19.127496,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#andheri_football">
+						<SimpleData name="Ground Name">Xylo Sports</SimpleData>
+						<SimpleData name="Ground Owner">Private Turf</SimpleData>
+						<SimpleData name="Paid/Free">Paid</SimpleData>
+						<SimpleData name="Timing">5:00 am - 9:00 pm</SimpleData>
+						<SimpleData name="Easting">72.86377</SimpleData>
+						<SimpleData name="Northing">19.119881</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.86377,19.119881,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#andheri_football">
+						<SimpleData name="Ground Name">UMRB turf</SimpleData>
+						<SimpleData name="Ground Owner">Private Turf</SimpleData>
+						<SimpleData name="Paid/Free">Paid</SimpleData>
+						<SimpleData name="Timing">5:00 am - 9:00 pm</SimpleData>
+						<SimpleData name="Easting">72.837499</SimpleData>
+						<SimpleData name="Northing">19.128123</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.83749899999999,19.128123,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#andheri_football">
+						<SimpleData name="Ground Name">Brunel Grounds</SimpleData>
+						<SimpleData name="Ground Owner">Private Turf</SimpleData>
+						<SimpleData name="Paid/Free">Paid</SimpleData>
+						<SimpleData name="Timing">5:00 am - 9:00 pm</SimpleData>
+						<SimpleData name="Easting">72.82554</SimpleData>
+						<SimpleData name="Northing">19.117041</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.82554,19.117041,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Document>
+	<Document id="root_doc">
+		<name>andftball.kml</name>
+		<Schema name="aft" id="aft">
+			<SimpleField type="float" name="id"></SimpleField>
+		</Schema>
+		<StyleMap id="m_ylw-pushpin0">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="s_ylw-pushpin">
+			<IconStyle>
+				<color>ff00ff00</color>
+				<scale>1.2</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/play.png</href>
+				</Icon>
+				<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+			</IconStyle>
+			<LabelStyle>
+				<color>ff00ff00</color>
+			</LabelStyle>
+			<ListStyle>
+			</ListStyle>
+			<PolyStyle>
+				<color>4d00ff00</color>
+			</PolyStyle>
+		</Style>
+		<Style id="s_ylw-pushpin_hl">
+			<IconStyle>
+				<color>ff00ff00</color>
+				<scale>1.4</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/play.png</href>
+				</Icon>
+				<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+			</IconStyle>
+			<LabelStyle>
+				<color>ff00ff00</color>
+			</LabelStyle>
+			<ListStyle>
+			</ListStyle>
+			<PolyStyle>
+				<color>4d00ff00</color>
+			</PolyStyle>
+		</Style>
+		<Folder>
+			<name>aft</name>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#aft">
+						<SimpleData name="id">1</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									72.86489044035839,19.1278370895566,0 72.8658281908974,19.1274483921904,0 72.86548007391229,19.1266945999546,0 72.8644840262705,19.1270423834386,0 72.86448735753351,19.127053399193,0 72.86448902316501,19.127053399193,0 72.86448902316501,19.1270486781555,0 72.86448902316501,19.1270486781555,0 72.86448902316501,19.1270502518347,0 72.86448902316501,19.1270502518347,0 72.86489044035839,19.1278370895566,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#aft">
+						<SimpleData name="id">2</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									72.8626995212971,19.12258365769,0 72.8628503360403,19.1225523586982,0 72.86277449278801,19.1223019665503,0 72.8626219345217,19.1223439731543,0 72.8626236780447,19.1223472677894,0 72.8626236780447,19.1223472677894,0 72.8626228062832,19.1223472677894,0 72.8626228062832,19.1223472677894,0 72.8626995212971,19.12258365769,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#aft">
+						<SimpleData name="id">3</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									72.862204533289,19.1178340458807,0 72.8627673742278,19.1176144473157,0 72.8624425506015,19.117050897856,0 72.861876909459,19.1172546225303,0 72.8618797096627,19.117259914077,0 72.8618797096627,19.117259914077,0 72.8618797096627,19.117259914077,0 72.862204533289,19.1178340458807,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#aft">
+						<SimpleData name="id">4</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									72.85725832352171,19.1148714249971,0 72.8574004338582,19.1148178473055,0 72.85732902866449,19.1145823698376,0 72.8571750174623,19.1146419006898,0 72.8571750174623,19.1146419006898,0 72.8571750174623,19.1146419006898,0 72.8571750174623,19.1146425621436,0 72.8571750174623,19.1146419006898,0 72.8571750174623,19.1146432235974,0 72.8571750174623,19.1146432235974,0 72.85725832352171,19.1148714249971,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#aft">
+						<SimpleData name="id">5</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									72.8348764918199,19.1293165379194,0 72.835508601047,19.1296465316434,0 72.83602401318601,19.1287415356791,0 72.8353675920655,19.1283992897204,0 72.8353675920655,19.1284069462373,0 72.8353692128584,19.1284038836306,0 72.8353692128584,19.1284054149339,0 72.8353692128584,19.1284054149339,0 72.8348764918199,19.1293165379194,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#aft">
+						<SimpleData name="id">6</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									72.8370337671564,19.1281833757978,0 72.8373449593913,19.1282094079878,0 72.8374033079353,19.1277760480548,0 72.83707428697861,19.1277423592492,0 72.83707590777151,19.1277469531776,0 72.83707590777151,19.1277469531776,0 72.83707590777151,19.1277469531776,0 72.8370337671564,19.1281833757978,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#aft">
+						<SimpleData name="id">7</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									72.82530246821899,19.1169707771061,0 72.82549534257291,19.1171545461227,0 72.8257222535775,19.1169386175072,0 72.8255423455667,19.1167548482505,0 72.8255423455667,19.1167579110732,0 72.8255423455667,19.1167579110732,0 72.8255423455667,19.1167594424845,0 72.8255423455667,19.1167594424845,0 72.82530246821899,19.1169707771061,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#aft">
+						<SimpleData name="id">8</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									72.84124863906681,19.0908888198024,0 72.8414933787932,19.090944725047,0 72.8415411921834,19.0908344461902,0 72.8412875380961,19.0907731801269,0 72.841289158889,19.0907739459529,0 72.841289158889,19.0907739459529,0 72.84124863906681,19.0908888198024,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+		</Folder>
+	</Document>
+</Folder>
+</kml>

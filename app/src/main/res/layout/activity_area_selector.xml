@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:layout_height="match_parent"
+    tools:context=".AreaSelectorActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Andheri"
+        android:layout_weight="1"
+        android:id="@+id/andheriButton" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bandra"
+        android:layout_weight="1"
+        android:id="@+id/bandraButton" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Boraivali"
+        android:layout_weight="1"
+        android:id="@+id/borivaliButton" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Byculla"
+        android:layout_weight="1"
+        android:id="@+id/bycullaButton" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chruchgate"
+        android:layout_weight="1"
+        android:id="@+id/chruchgateButton" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dadar"
+        android:layout_weight="1"
+        android:id="@+id/dadarButton" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ghatkopar"
+        android:layout_weight="1"
+        android:id="@+id/ghatkoparButton" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kurla"
+        android:layout_weight="1"
+        android:id="@+id/kurlaButton" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sion"
+        android:layout_weight="1"
+        android:id="@+id/sionButton" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thane"
+        android:layout_weight="1"
+        android:id="@+id/thaneButton" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CSMT"
+        android:layout_weight="1"
+        android:id="@+id/csmtButton" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

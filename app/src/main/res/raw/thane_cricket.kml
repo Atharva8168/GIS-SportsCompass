@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder>
+	<name>Temporary Places</name>
+	<open>1</open>
+	<Document id="root_doc">
+		<name>thaneckt.kml</name>
+		<Schema name="tct" id="tct">
+			<SimpleField type="float" name="id"></SimpleField>
+		</Schema>
+		<StyleMap id="m_ylw-pushpin">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="s_ylw-pushpin">
+			<IconStyle>
+				<color>ff00ff00</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/grn-diamond.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LabelStyle>
+				<color>ff00ff00</color>
+			</LabelStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/grn-diamond-lv.png</href>
+				</ItemIcon>
+			</ListStyle>
+			<PolyStyle>
+				<color>4d00ff00</color>
+			</PolyStyle>
+		</Style>
+		<Style id="s_ylw-pushpin_hl">
+			<IconStyle>
+				<color>ff00ff00</color>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/grn-diamond.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LabelStyle>
+				<color>ff00ff00</color>
+			</LabelStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/grn-diamond-lv.png</href>
+				</ItemIcon>
+			</ListStyle>
+			<PolyStyle>
+				<color>4d00ff00</color>
+			</PolyStyle>
+		</Style>
+		<Folder>
+			<name>tct</name>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#tct">
+						<SimpleData name="id">1</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									72.993868016921,19.2346921214811,0 72.99430574780121,19.2346477018695,0 72.99430574780121,19.2346477018695,0 72.9942852930871,19.2344120845986,0 72.9938271074929,19.2344429852435,0 72.9938271074929,19.2344429852435,0 72.9938271074929,19.2344429852435,0 72.9938271074929,19.2344410539534,0 72.993868016921,19.2346921214811,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#tct">
+						<SimpleData name="id">2</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									72.9828213536511,19.2551085201889,0 72.98280437414211,19.2551233624741,0 72.98279368334011,19.2551097075717,0 72.9828018586593,19.2551233624741,0 72.9828018586593,19.2551233624741,0 72.98291757086869,19.255046182576,0 72.98277984818461,19.2548579822106,0 72.98266162049239,19.2549393180417,0 72.9826798577428,19.2549589098782,0 72.98279808543511,19.255115644486,0 72.9828213536511,19.2551085201889,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#tct">
+						<SimpleData name="id">4</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									72.979356455614,19.192982467885,0 72.9794510534074,19.1930438889382,0 72.9797703209601,19.1930885587807,0 72.980030464892,19.1930438889382,0 72.98028469646179,19.192932214279,0 72.980497541497,19.1927535346666,0 72.98059805165251,19.1925413523749,0 72.9806217011008,19.1923794235999,0 72.98060396401461,19.1922286621834,0 72.9805448403937,19.1920890681561,0 72.9804384178761,19.1919829766162,0 72.9804384178761,19.1919829766162,0 72.98034382008269,19.1918824687785,0 72.9801960110305,19.1918154635193,0 72.9799536041849,19.1917540420077,0 72.9797171097014,19.1918042959734,0 72.9794628781316,19.1919048038589,0 72.9792322960101,19.1919997279166,0 72.97909039932,19.1922119109064,0 72.979019450975,19.1925581036184,0 72.9791672600272,19.192909879338,0 72.9793919297865,19.193066223861,0 72.9795870377354,19.1930997262394,0 72.9795870377354,19.1930997262394,0 72.9795870377354,19.1930997262394,0 72.979356455614,19.192982467885,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+		</Folder>
+	</Document>
+	<Document id="root_doc">
+		<name>thanecric.kml</name>
+		<Schema name="thane_cricket" id="thane_cricket">
+			<SimpleField type="string" name="Ground Name"></SimpleField>
+			<SimpleField type="string" name="Ground Owner"></SimpleField>
+			<SimpleField type="string" name="Paid/Free"></SimpleField>
+			<SimpleField type="string" name="Timing"></SimpleField>
+			<SimpleField type="float" name="Easting"></SimpleField>
+			<SimpleField type="float" name="Northing"></SimpleField>
+		</Schema>
+		<StyleMap id="m_ylw-pushpin0">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="s_ylw-pushpin">
+			<IconStyle>
+				<color>ff00ff00</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/grn-diamond.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LabelStyle>
+				<color>ff00ff00</color>
+			</LabelStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/grn-diamond-lv.png</href>
+				</ItemIcon>
+			</ListStyle>
+			<PolyStyle>
+				<color>4d00ff00</color>
+			</PolyStyle>
+		</Style>
+		<Style id="s_ylw-pushpin_hl">
+			<IconStyle>
+				<color>ff00ff00</color>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/grn-diamond.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LabelStyle>
+				<color>ff00ff00</color>
+			</LabelStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/grn-diamond-lv.png</href>
+				</ItemIcon>
+			</ListStyle>
+			<PolyStyle>
+				<color>4d00ff00</color>
+			</PolyStyle>
+		</Style>
+		<Folder>
+			<name>thane_cricket</name>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#thane_cricket">
+						<SimpleData name="Ground Name">Urban Sports-C.P. Goenka Thane</SimpleData>
+						<SimpleData name="Ground Owner">Private</SimpleData>
+						<SimpleData name="Paid/Free">Paid</SimpleData>
+						<SimpleData name="Timing">5:00 am - 9:00 pm</SimpleData>
+						<SimpleData name="Easting">72.9791483219022</SimpleData>
+						<SimpleData name="Northing">19.2169385985532</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.9791483219022,19.2169385985532,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#thane_cricket">
+						<SimpleData name="Ground Name">Strikers Arena Thane</SimpleData>
+						<SimpleData name="Ground Owner">Private</SimpleData>
+						<SimpleData name="Paid/Free">Paid</SimpleData>
+						<SimpleData name="Timing">5:00 am - 9:00 pm</SimpleData>
+						<SimpleData name="Easting">72.993927703126</SimpleData>
+						<SimpleData name="Northing">19.2345266213116</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.993927703126,19.2345266213116,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#thane_cricket">
+						<SimpleData name="Ground Name">Turfo Mania Thane</SimpleData>
+						<SimpleData name="Ground Owner">Private</SimpleData>
+						<SimpleData name="Paid/Free">Paid</SimpleData>
+						<SimpleData name="Timing">5:00 am - 9:00 pm</SimpleData>
+						<SimpleData name="Easting">73.0296727911847</SimpleData>
+						<SimpleData name="Northing">19.1597881275354</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>73.02967279118469,19.1597881275354,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#thane_cricket">
+						<SimpleData name="Ground Name">Viking Turf</SimpleData>
+						<SimpleData name="Ground Owner">Private</SimpleData>
+						<SimpleData name="Paid/Free">Paid</SimpleData>
+						<SimpleData name="Timing">5:00 am - 9:00 pm</SimpleData>
+						<SimpleData name="Easting">72.9432842203421</SimpleData>
+						<SimpleData name="Northing">19.2398059306175</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.94328422034209,19.2398059306175,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#thane_cricket">
+						<SimpleData name="Ground Name">Dream Sports Field</SimpleData>
+						<SimpleData name="Ground Owner">Private</SimpleData>
+						<SimpleData name="Paid/Free">Paid</SimpleData>
+						<SimpleData name="Timing">5:00 am - 9:00 pm</SimpleData>
+						<SimpleData name="Easting">72.98281</SimpleData>
+						<SimpleData name="Northing">19.255019</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.98281,19.255019,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#thane_cricket">
+						<SimpleData name="Ground Name">Dadoji Kondadev Stadium</SimpleData>
+						<SimpleData name="Ground Owner">Private</SimpleData>
+						<SimpleData name="Paid/Free">Paid</SimpleData>
+						<SimpleData name="Timing">5:00 am - 9:00 pm</SimpleData>
+						<SimpleData name="Easting">72.9795323808375</SimpleData>
+						<SimpleData name="Northing">19.192510355903</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.9795323808375,19.192510355903,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#thane_cricket">
+						<SimpleData name="Ground Name">Cricball Thane</SimpleData>
+						<SimpleData name="Ground Owner">Private</SimpleData>
+						<SimpleData name="Paid/Free">Paid</SimpleData>
+						<SimpleData name="Timing">5:00 am - 9:00 pm</SimpleData>
+						<SimpleData name="Easting">72.947209853288</SimpleData>
+						<SimpleData name="Northing">19.2263276146988</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.947209853288,19.2263276146988,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Document>
+</Folder>
+</kml>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SportsCompass"
+        tools:targetApi="31">
+
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="YOUR_API_KEY" />
+
+        <activity
+            android:name=".BandraSwimmingMapsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_bandra_basketball_maps" />
+        <activity
+            android:name=".BandraFootballMapsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_bandra_football_maps" />
+        <activity
+            android:name=".BandraCricketMapsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_bandra_cricket_maps" />
+        <activity
+            android:name=".AndheriCricketMapsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_andheri_cricket_maps" />
+        <activity
+            android:name=".AndheriFootballMapsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_andheri_football_maps" />
+        <activity
+            android:name=".AndheriBasketballMapsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_andheri_basketball_maps" />
+        <activity
+            android:name=".CSMTTennisMapsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_csmttennis_maps" />
+        <activity
+            android:name=".CSMTSwimmingMapsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_csmtswimming_maps" />
+        <activity
+            android:name=".CSMTFootballMapsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_csmtfootball_maps" />
+        <activity
+            android:name=".CSMTCricketMapsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_csmtcricket_maps" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SignupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".GhatkoparCricketMapsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_ghatkopar_cricket_maps" />
+        <activity
+            android:name=".GhatkoparBasketballMapsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_ghatkopar_basketball_maps" />
+        <activity
+            android:name=".GhatkoparFootballMapsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_ghatkopar_football_maps" />
+        <activity
+            android:name=".KurlaBasketballMapsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_kurla_basketball_maps" />
+        <activity
+            android:name=".KurlaFootballMapsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_kurla_football_maps" />
+        <activity
+            android:name=".KurlaCricketMapsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_kurla_cricket_maps" />
+        <activity
+            android:name=".SionSwimmingMapsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_sion_swimming_maps" />
+        <activity
+            android:name=".SionFootballMapsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_sion_football_maps" />
+        <activity
+            android:name=".SionCricketMapsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_sion_cricket_maps" />
+        <activity
+            android:name=".ThaneSwimmingMapsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_thane_swimming_maps" />
+        <activity
+            android:name=".ThaneFootballMapsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_thane_football_maps" />
+        <activity
+            android:name=".ThaneCricketMapsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_thane_cricket_maps" />
+        <activity
+            android:name=".ChruchgateSwimmingMapsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_chruchgate_swimming_maps" />
+        <activity
+            android:name=".ChruchgateFootballMapsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_chruchgate_football_maps" />
+        <activity
+            android:name=".ChruchgateCricketMapsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_chruchgate_cricket_maps" />
+        <activity
+            android:name=".BycullaSwimmingMapsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_byculla_swimming_maps" />
+        <activity
+            android:name=".BycullaFootballMapsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_byculla_football_maps" />
+        <activity
+            android:name=".BycullaCricketMapsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_byculla_cricket_maps" />
+        <activity
+            android:name=".BorivaliSwimmingMapsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_borivali_swimming_maps" />
+        <activity
+            android:name=".BorivaliFootballMapsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_borivali_football_maps" />
+        <activity
+            android:name=".BorivaliCricketMapsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_borivali_cricket_maps" />
+        <activity
+            android:name=".DadarKabaddiMapsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_dadar_kabaddi_maps" />
+        <activity
+            android:name=".DadarHockeyMapsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_dadar_hockey_maps" />
+        <activity
+            android:name=".DadarSwimmingMapsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_dadar_swimming_maps" />
+        <activity
+            android:name=".DadarBasketballMapsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_dadar_basketball_maps" />
+        <activity
+            android:name=".DadarCricketMapsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_dadar_cricket_maps" />
+        <activity
+            android:name=".DadarFootballMapsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_dadar_football_maps" />
+        <activity
+            android:name=".SportSelectorActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AreaSelectorActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

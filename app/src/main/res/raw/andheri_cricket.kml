@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder>
+	<name>Temporary Places</name>
+	<open>1</open>
+	<Document id="root_doc">
+		<name>andcric.kml</name>
+		<Schema name="andheri_cricket" id="andheri_cricket">
+			<SimpleField type="string" name="Ground Name"></SimpleField>
+			<SimpleField type="string" name="Ground Owner"></SimpleField>
+			<SimpleField type="string" name="Paid/Free"></SimpleField>
+			<SimpleField type="string" name="Timing"></SimpleField>
+			<SimpleField type="float" name="Easting"></SimpleField>
+			<SimpleField type="float" name="Northing"></SimpleField>
+		</Schema>
+		<StyleMap id="m_ylw-pushpin">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="s_ylw-pushpin">
+			<IconStyle>
+				<color>ff00ff00</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LabelStyle>
+				<color>ff00ff00</color>
+			</LabelStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+				</ItemIcon>
+			</ListStyle>
+			<PolyStyle>
+				<color>4d00ff00</color>
+			</PolyStyle>
+		</Style>
+		<Style id="s_ylw-pushpin_hl">
+			<IconStyle>
+				<color>ff00ff00</color>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LabelStyle>
+				<color>ff00ff00</color>
+			</LabelStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+				</ItemIcon>
+			</ListStyle>
+			<PolyStyle>
+				<color>4d00ff00</color>
+			</PolyStyle>
+		</Style>
+		<Folder>
+			<name>andheri_cricket</name>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#andheri_cricket">
+						<SimpleData name="Ground Name">Andheri Sports Complex</SimpleData>
+						<SimpleData name="Ground Owner">Private</SimpleData>
+						<SimpleData name="Paid/Free">Paid</SimpleData>
+						<SimpleData name="Timing">5:00 am - 9:00 pm</SimpleData>
+						<SimpleData name="Easting">72.836269799787</SimpleData>
+						<SimpleData name="Northing">19.1268152381679</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.836269799787,19.1268152381679,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#andheri_cricket">
+						<SimpleData name="Ground Name">Holy Family High School Ground</SimpleData>
+						<SimpleData name="Ground Owner">Private</SimpleData>
+						<SimpleData name="Paid/Free">Paid</SimpleData>
+						<SimpleData name="Timing">5:00 am - 9:00 pm</SimpleData>
+						<SimpleData name="Easting">72.861177</SimpleData>
+						<SimpleData name="Northing">19.117835</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.861177,19.117835,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#andheri_cricket">
+						<SimpleData name="Ground Name">Lion&apos;s Sports Club</SimpleData>
+						<SimpleData name="Ground Owner">Private Turf</SimpleData>
+						<SimpleData name="Paid/Free">Paid</SimpleData>
+						<SimpleData name="Timing">5:00 am - 9:00 pm</SimpleData>
+						<SimpleData name="Easting">72.841479</SimpleData>
+						<SimpleData name="Northing">19.090924</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.84147900000001,19.090924,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#andheri_cricket">
+						<SimpleData name="Ground Name">Battle Field Turf</SimpleData>
+						<SimpleData name="Ground Owner">Private Turf</SimpleData>
+						<SimpleData name="Paid/Free">Paid</SimpleData>
+						<SimpleData name="Timing">5:00 am - 9:00 pm</SimpleData>
+						<SimpleData name="Easting">72.8572686296254</SimpleData>
+						<SimpleData name="Northing">19.114769220796</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.85726862962539,19.114769220796,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#andheri_cricket">
+						<SimpleData name="Ground Name">Players Turf</SimpleData>
+						<SimpleData name="Ground Owner">Private Turf</SimpleData>
+						<SimpleData name="Paid/Free">Paid</SimpleData>
+						<SimpleData name="Timing">5:00 am - 9:00 pm</SimpleData>
+						<SimpleData name="Easting">72.862762</SimpleData>
+						<SimpleData name="Northing">19.122401</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.862762,19.122401,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#andheri_cricket">
+						<SimpleData name="Ground Name">Domnic Savio High School Ground</SimpleData>
+						<SimpleData name="Ground Owner">Private</SimpleData>
+						<SimpleData name="Paid/Free">Paid</SimpleData>
+						<SimpleData name="Timing">5:00 am - 9:00 pm</SimpleData>
+						<SimpleData name="Easting">72.864985</SimpleData>
+						<SimpleData name="Northing">19.127496</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.864985,19.127496,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#andheri_cricket">
+						<SimpleData name="Ground Name">Xylo Sports</SimpleData>
+						<SimpleData name="Ground Owner">Private Turf</SimpleData>
+						<SimpleData name="Paid/Free">Paid</SimpleData>
+						<SimpleData name="Timing">5:00 am - 9:00 pm</SimpleData>
+						<SimpleData name="Easting">72.86377</SimpleData>
+						<SimpleData name="Northing">19.119881</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.86377,19.119881,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#andheri_cricket">
+						<SimpleData name="Ground Name">UMRB turf</SimpleData>
+						<SimpleData name="Ground Owner">Private Turf</SimpleData>
+						<SimpleData name="Paid/Free">Paid</SimpleData>
+						<SimpleData name="Timing">5:00 am - 9:00 pm</SimpleData>
+						<SimpleData name="Easting">72.837499</SimpleData>
+						<SimpleData name="Northing">19.128123</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.83749899999999,19.128123,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#andheri_cricket">
+						<SimpleData name="Ground Name">Brunel Grounds</SimpleData>
+						<SimpleData name="Ground Owner">Private Turf</SimpleData>
+						<SimpleData name="Paid/Free">Paid</SimpleData>
+						<SimpleData name="Timing">5:00 am - 9:00 pm</SimpleData>
+						<SimpleData name="Easting">72.82554</SimpleData>
+						<SimpleData name="Northing">19.117041</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.82554,19.117041,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#andheri_cricket">
+						<SimpleData name="Ground Name">Prabhodhan Thackeray Krida Bhavan</SimpleData>
+						<SimpleData name="Ground Owner">Private</SimpleData>
+						<SimpleData name="Paid/Free">Paid</SimpleData>
+						<SimpleData name="Timing">5:00 am - 9:00 pm</SimpleData>
+						<SimpleData name="Easting">72.842967</SimpleData>
+						<SimpleData name="Northing">19.157261</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.842967,19.157261,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#andheri_cricket">
+						<SimpleData name="Ground Name">Prathamesh Stadium</SimpleData>
+						<SimpleData name="Ground Owner">Private</SimpleData>
+						<SimpleData name="Paid/Free">Paid</SimpleData>
+						<SimpleData name="Timing">5:00 am - 9:00 pm</SimpleData>
+						<SimpleData name="Easting">72.83893</SimpleData>
+						<SimpleData name="Northing">19.136671</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>72.83893,19.136671,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Document>
+	<Document id="root_doc">
+		<name>andckt.kml</name>
+		<Schema name="acg" id="acg">
+			<SimpleField type="float" name="id"></SimpleField>
+		</Schema>
+		<StyleMap id="m_ylw-pushpin0">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="s_ylw-pushpin">
+			<IconStyle>
+				<color>ff00ff00</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LabelStyle>
+				<color>ff00ff00</color>
+			</LabelStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+				</ItemIcon>
+			</ListStyle>
+			<PolyStyle>
+				<color>4d00ff00</color>
+			</PolyStyle>
+		</Style>
+		<Style id="s_ylw-pushpin_hl">
+			<IconStyle>
+				<color>ff00ff00</color>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href>
+				</Icon>
+				<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<LabelStyle>
+				<color>ff00ff00</color>
+			</LabelStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>http://maps.google.com/mapfiles/kml/paddle/grn-blank-lv.png</href>
+				</ItemIcon>
+			</ListStyle>
+			<PolyStyle>
+				<color>4d00ff00</color>
+			</PolyStyle>
+		</Style>
+		<Folder>
+			<name>acg</name>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#acg">
+						<SimpleData name="id">1</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									72.825292345647,19.1169645910122,0 72.8255051484095,19.1171602962193,0 72.8257236259123,19.1169404629569,0 72.8255363594814,19.1167554810828,0 72.825530684741,19.1167635237773,0 72.825530684741,19.1167635237773,0 72.825292345647,19.1169645910122,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#acg">
+						<SimpleData name="id">2</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									72.83839354771899,19.1370392525192,0 72.8385786861223,19.1371960657369,0 72.8388574577412,19.137288545257,0 72.8390660044484,19.1372865348332,0 72.8393532881777,19.1371679197857,0 72.83960652346509,19.1368804287238,0 72.83962780374139,19.1364280816341,0 72.8394511774485,19.1360742448245,0 72.83918730202301,19.1359174305414,0 72.8389191705423,19.1358852634906,0 72.8386808314483,19.1359254723032,0 72.8385020771279,19.1360199629741,0 72.83833183491789,19.136200902406,0 72.83823607367481,19.1364703007482,0 72.8382275615643,19.1367477403726,0 72.83838077955321,19.1370312108117,0 72.83838077955321,19.1370312108117,0 72.83838077955321,19.1370312108117,0 72.83838077955321,19.1370312108117,0 72.83839354771899,19.1370392525192,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#acg">
+						<SimpleData name="id">3</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									72.8370401221496,19.1281991691802,0 72.83733591798951,19.1282232955917,0 72.8374167830392,19.1278131461178,0 72.837072042564,19.1277809774885,0 72.837072042564,19.1277809774885,0 72.837072042564,19.1277809774885,0 72.837072042564,19.1277809774885,0 72.837072042564,19.1277809774885,0 72.8370401221496,19.1281991691802,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#acg">
+						<SimpleData name="id">4</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									72.8648906836893,19.1278131461177,0 72.8652183999435,19.1276724083185,0 72.8648396110263,19.1268842744271,0 72.86449061449579,19.1270451183838,0 72.8644948705511,19.1270451183838,0 72.8644969985787,19.1270451183838,0 72.8644927425235,19.1270451183838,0 72.8644927425235,19.1270451183838,0 72.8648906836893,19.1278131461177,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#acg">
+						<SimpleData name="id">5</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									72.862700250533,19.1225877381988,0 72.8628488835445,19.1225545891483,0 72.8627793513631,19.1223032588582,0 72.86261732224339,19.1223418323568,0 72.8626192359731,19.1223436404894,0 72.8626192359731,19.1223436404894,0 72.862700250533,19.1225877381988,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#acg">
+						<SimpleData name="id">6</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									72.8622253265974,19.1178407264689,0 72.8627662742098,19.117585169913,0 72.8624753872862,19.1169583314049,0 72.86184768392459,19.1172331762742,0 72.86185023556421,19.1172355871921,0 72.86185023556421,19.1172355871921,0 72.8622253265974,19.1178407264689,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#acg">
+						<SimpleData name="id">7</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									72.85724899130889,19.1148644324645,0 72.8574263302668,19.1148234462678,0 72.857344677797,19.1145859672222,0 72.85716478719949,19.1146390082569,0 72.85716478719949,19.1146390082569,0 72.85724899130889,19.1148644324645,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#acg">
+						<SimpleData name="id">8</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									72.84124064185851,19.090895417481,0 72.8414932541869,19.0909484661118,0 72.8415481144401,19.0908303123199,0 72.84128529555289,19.0907664127851,0 72.84128657137271,19.0907712353924,0 72.84128657137271,19.0907712353924,0 72.84124064185851,19.090895417481,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#acg">
+						<SimpleData name="id">9</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									72.84244839506729,19.1578067187894,0 72.84331836675661,19.1577847718426,0 72.8433080406832,19.1567678934399,0 72.84296986177721,19.1567971562154,0 72.8429233944466,19.1570263811102,0 72.84242516140201,19.1570434510364,0 72.84242516140201,19.1570434510364,0 72.84242516140201,19.1570434510364,0 72.84244839506729,19.1578067187894,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+		</Folder>
+	</Document>
+</Folder>
+</kml>

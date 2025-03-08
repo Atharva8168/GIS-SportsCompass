@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:layout_height="match_parent"
+    tools:context=".SportSelectorActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cricket"
+        android:layout_weight="1"
+        android:id="@+id/cricketButton" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Football"
+        android:layout_weight="1"
+        android:id="@+id/footballButton" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Basketball"
+        android:layout_weight="1"
+        android:id="@+id/basketballButton" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Swimming"
+        android:layout_weight="1"
+        android:id="@+id/swimmingButton" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hockey"
+        android:layout_weight="1"
+        android:id="@+id/hockeyButton" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kabaddi"
+        android:layout_weight="1"
+        android:id="@+id/kabaddiButton" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tennis"
+        android:layout_weight="1"
+        android:id="@+id/tennisButton" />
+
+
+
+
+</LinearLayout>
